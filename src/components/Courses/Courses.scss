@@ -1,0 +1,53 @@
+$textColor: #3d1659;
+$bgColor: #f8fbff;
+
+.Courses {
+    border: 2px solid violet;
+    min-height: 400px;
+    .wrapper {
+        .sectionTitle {
+            text-align: center;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .item {
+                border: 1px solid;
+                border-radius: 10px;
+                width: 300px;
+                margin-bottom: 20px;
+                box-sizing: border-box;
+                .title {
+                    font-size: 24px;
+                    font-family: "Futura PT Bold";
+                    margin: 20px 0 30px 10px;
+                }
+                .start {
+                    margin: 20px 0 30px 10px;
+                    font-size: 20px;
+                }
+                .text {
+                    margin: 10px 0 10px 10px;
+                    font-size: 18px;
+                }
+                .price {
+                    margin: 20px 0 20px 10px;
+                    font-size: 20px;
+                    font-family: "Futura PT Bold";
+                }
+                .button {
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 8px;
+                    background-color: $textColor;
+                    box-sizing: border-box;
+                    .link {
+                        color: $bgColor;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

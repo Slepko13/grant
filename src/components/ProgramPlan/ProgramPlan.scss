@@ -1,0 +1,42 @@
+.ProgramPlan {
+    border: 2px solid maroon;
+    min-height: 600px;
+    padding: 20px 0;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .title {
+            text-align: center;
+        }
+        .items {
+            border: 2px solid blue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            @media screen and(max-width:991px) {
+                justify-content: space-around;
+            }
+            .item {
+                border: 1px solid grey;
+                width: 300px;
+                min-height: 200px;
+                margin-bottom: 10px;
+            }
+        }
+        .teachers {
+            border: 1px solid red;
+            text-align: center;
+            .teacher {
+                border: 1px solid yellowgreen;
+                .teacherImage {
+                    width: 100%;
+                    height: 500px;
+                    border: 1px solid blueviolet;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

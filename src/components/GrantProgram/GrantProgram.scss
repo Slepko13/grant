@@ -1,0 +1,51 @@
+$textColor: #3d1659;
+$bgColor: #f8fbff;
+.GrantProgram {
+    border: 2px solid paleturquoise;
+
+    .container {
+        .wrapper {
+            display: flex;
+            min-height: 600px;
+            padding: 50px 0;
+            .title {
+                text-align: center;
+            }
+            .contentRight {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .text {
+                    font-size: 22px;
+                    color: $textColor;
+                    margin-bottom: 20px;
+                }
+                .registrationButton {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    align-self: flex-start;
+                    border: 1px solid $textColor;
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    .registrationLink {
+                        color: $textColor;
+                        text-decoration: none;
+                        font-family: "Futura PT Bold";
+                        text-transform: uppercase;
+                        outline: none;
+                        cursor: pointer;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            .contentLeft {
+                background: url("../../assets/images/illustrations/illustration3.svg") left bottom no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}

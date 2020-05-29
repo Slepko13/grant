@@ -1,0 +1,30 @@
+$textColor: #3d1659;
+$bgColor: #f8fbff;
+.AboutUs {
+    border: 2px solid green;
+    // padding-top: 80px;
+
+    .container {
+        .wrapper {
+            display: flex;
+            min-height: 600px;
+            .title {
+                text-align: center;
+            }
+            .contentRight {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text {
+                    font-size: 22px;
+                    color: $textColor;
+                }
+            }
+            .contentLeft {
+                // height: 500px;
+                background: url("../../assets/images/illustrations/illustration2.svg") left bottom no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}

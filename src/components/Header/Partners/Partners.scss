@@ -1,0 +1,13 @@
+.Partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    .partner {
+        margin: 5px;
+        width: 220px;
+        height: 100px;
+        background: center center no-repeat;
+        background-size: contain;
+    }
+}
