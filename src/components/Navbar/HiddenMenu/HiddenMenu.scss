@@ -1,19 +1,21 @@
 .HiddenMenu {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 5;
     width: 100%;
     height: 100%;
     background-color: rgba(61, 22, 89, 0.6);
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: flex;
+    justify-content: flex-end;
 
     @media screen and(min-width: 980px) {
         display: none;
     }
     .wrapper {
-        max-width: 250px;
+        width: 250px;
         height: 100%;
         background-color: rgb(61, 22, 89);
         padding-top: 100px;

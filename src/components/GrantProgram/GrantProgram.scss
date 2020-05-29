@@ -6,10 +6,10 @@ $bgColor: #f8fbff;
     .container {
         .wrapper {
             display: flex;
-            min-height: 600px;
             padding: 50px 0;
             .title {
                 text-align: center;
+                margin: 50px 0;
             }
             .contentRight {
                 display: flex;
@@ -31,6 +31,7 @@ $bgColor: #f8fbff;
                     height: 40px;
                     border-radius: 10px;
                     background-color: transparent;
+                    margin-top: 40px;
                     .registrationLink {
                         color: $textColor;
                         text-decoration: none;
@@ -45,6 +46,8 @@ $bgColor: #f8fbff;
             .contentLeft {
                 background: url("../../assets/images/illustrations/illustration3.svg") left bottom no-repeat;
                 background-size: 100% 100%;
+                min-height: 200px;
+                margin-bottom: 20px;
             }
         }
     }

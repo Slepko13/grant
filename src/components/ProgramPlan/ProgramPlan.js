@@ -21,7 +21,7 @@ function ProgramPlan() {
                         <div className="item"> Тема 8: Брей ринг</div>
                         <div className="item">Тема 9: Захист проектів. Випуск</div>
                     </div>
-                    <h2 className="title mt-4">Викладачі</h2>
+                    <h2 className="title mt-5">Викладачі</h2>
                     <div className="teachers row">
                         <div className="teacher col-12 col-lg-6">
                             <div className=""><img src={softServe} alt="" className="teacherImage" /></div>

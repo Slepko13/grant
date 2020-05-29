@@ -24,11 +24,11 @@ function Header() {
                     <div className="contentRight col-12 col-md-7">
                     </div>
                 </div>
-            </div>
-            <div className="container-fluid ">
-                <h2 className="title">Наші партнери</h2>
+                <h2 className="partnersTitle">Наші партнери</h2>
                 <Partners />
             </div>
+
+
         </header>
     )
 }

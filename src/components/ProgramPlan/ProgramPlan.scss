@@ -1,6 +1,5 @@
 .ProgramPlan {
     border: 2px solid maroon;
-    min-height: 600px;
     padding: 20px 0;
     .wrapper {
         display: flex;
@@ -8,6 +7,7 @@
         justify-content: center;
         .title {
             text-align: center;
+            margin: 50px 0;
         }
         .items {
             border: 2px solid blue;
@@ -30,6 +30,10 @@
             text-align: center;
             .teacher {
                 border: 1px solid yellowgreen;
+                .name {
+                    margin: 20px 0;
+                }
+
                 .teacherImage {
                     width: 100%;
                     height: 500px;

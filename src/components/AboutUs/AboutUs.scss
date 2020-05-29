@@ -7,9 +7,9 @@ $bgColor: #f8fbff;
     .container {
         .wrapper {
             display: flex;
-            min-height: 600px;
             .title {
                 text-align: center;
+                margin: 50px 0;
             }
             .contentRight {
                 display: flex;
@@ -21,8 +21,9 @@ $bgColor: #f8fbff;
                 }
             }
             .contentLeft {
-                // height: 500px;
-                background: url("../../assets/images/illustrations/illustration2.svg") left bottom no-repeat;
+                min-height: 200px;
+                margin-bottom: 20px;
+                background: url("../../assets/images/illustrations/illustration2.svg") center center no-repeat;
                 background-size: 100% 100%;
             }
         }
