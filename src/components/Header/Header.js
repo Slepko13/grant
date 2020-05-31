@@ -7,7 +7,7 @@ function Header() {
     return (
         <header id="header" className="Header">
             <div className="container">
-                <div className="wrapper row">
+                <div className="wrapper row ">
                     <div className="contentLeft col-12 col-md-5">
                         <h1 className="title">It claster academy online.</h1>
                         <div className="text">Приймай участь в грантовій програмі від ІТ Кластер Академії</div>

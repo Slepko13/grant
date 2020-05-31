@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import Logo from '../../assets/images/logo/academy2.svg';
+
 import './Navbar.scss';
 
 
@@ -8,7 +10,9 @@ function Navbar(props) {
         <section className="Navbar">
             <div className="container">
                 <div className="wrapper">
-                    <div className="logo">Logo</div>
+                    <div className="logo">
+                        <img src={Logo} alt="logo" />
+                    </div>
                     <nav className="items">
                         <div className="item">
                             <Link

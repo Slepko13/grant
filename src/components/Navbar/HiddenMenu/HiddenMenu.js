@@ -1,6 +1,7 @@
 import React from 'react';
 import './HiddenMenu.scss';
 import { Link } from 'react-scroll';
+import Logo from '../../../assets/images/logo/academy.svg'
 
 function HiddenMenu(props) {
     return (
@@ -8,7 +9,9 @@ function HiddenMenu(props) {
             style={props.isMenuOpen ? { transform: "translateX(0)" } : null} onClick={props.toggleMenu}>
             <div className="wrapper" >
                 <div className="menu">
-                    <div className="logo">Logo</div>
+                    <div className="logo">
+                        <img src={Logo} alt="" />
+                    </div>
                     <nav className="items">
                         <nav className="items">
                             <div className="item">

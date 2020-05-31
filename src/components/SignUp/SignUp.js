@@ -8,7 +8,7 @@ function SignUp() {
         <section id="signUp" className="SignUp">
             <div className="container">
                 <div className="wrapper">
-                    <div className="title">Зареєструйся на безкоштовне навчання від ITCA вже сьогодні!</div>
+                    <h2 className="title">Зареєструйся на безкоштовне навчання від ITCA вже сьогодні!</h2>
                     <div className="registration">
                         {/* <div className="items">
                             <div className="item">First name</div>

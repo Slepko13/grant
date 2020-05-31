@@ -2,7 +2,6 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 
 .Courses {
-    border: 2px solid violet;
     min-height: 400px;
     .wrapper {
         .sectionTitle {
@@ -31,11 +30,19 @@ $bgColor: #f8fbff;
                 .text {
                     margin: 10px 0 10px 10px;
                     font-size: 18px;
+                    .courseIcon {
+                        margin-right: 10px;
+                        color: red;
+                    }
                 }
                 .price {
                     margin: 20px 0 20px 10px;
                     font-size: 20px;
                     font-family: "Futura PT Bold";
+                    .courseIcon {
+                        margin-right: 10px;
+                        color: red;
+                    }
                 }
                 .button {
                     text-align: center;
@@ -43,6 +50,15 @@ $bgColor: #f8fbff;
                     border-radius: 8px;
                     background-color: $textColor;
                     box-sizing: border-box;
+                    font-size: 18px;
+                    border: 1px solid $textColor;
+                    &:hover {
+                        background-color: $bgColor;
+                        border: 1px solid $textColor;
+                    }
+                    &:hover .link {
+                        color: $textColor;
+                    }
                     .link {
                         color: $bgColor;
                         text-decoration: none;

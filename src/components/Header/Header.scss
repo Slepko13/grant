@@ -32,6 +32,12 @@ $bgColor: #f8fbff;
                     height: 40px;
                     border-radius: 10px;
                     background-color: transparent;
+                    &:hover {
+                        background-color: #3d1659;
+                    }
+                    &:hover .registrationLink {
+                        color: #f8fbff;
+                    }
                     .registrationLink {
                         color: $textColor;
                         text-decoration: none;
@@ -52,6 +58,6 @@ $bgColor: #f8fbff;
     }
     .partnersTitle {
         text-align: center;
-        margin: 30px 0;
+        margin: 50px 0 30px 0;
     }
 }
