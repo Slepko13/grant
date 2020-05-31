@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "705ad6caab96b1a5525ec4475da87c51",
+    "revision": "640823ee05f6d01d498b55752ec7b7ed",
     "url": "/grant/index.html"
   },
   {
-    "revision": "86f0bf97bf8ad042007d",
+    "revision": "fef8a1c4927815089c59",
     "url": "/grant/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "66519dd416ab2824a78a",
-    "url": "/grant/static/css/main.b5b5ea56.chunk.css"
+    "revision": "330dbcef9e17e62ce6c7",
+    "url": "/grant/static/css/main.ee08b9b5.chunk.css"
   },
   {
-    "revision": "86f0bf97bf8ad042007d",
-    "url": "/grant/static/js/2.2e0f18b7.chunk.js"
+    "revision": "fef8a1c4927815089c59",
+    "url": "/grant/static/js/2.a187469b.chunk.js"
   },
   {
     "revision": "77e7f328dacc981fca681ee4ae94d669",
-    "url": "/grant/static/js/2.2e0f18b7.chunk.js.LICENSE.txt"
+    "url": "/grant/static/js/2.a187469b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66519dd416ab2824a78a",
-    "url": "/grant/static/js/main.f54c1f85.chunk.js"
+    "revision": "330dbcef9e17e62ce6c7",
+    "url": "/grant/static/js/main.354f835c.chunk.js"
   },
   {
     "revision": "780fa118cd85c41b1717",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "869c135e070160a7623aa3648a47fc0b",
     "url": "/grant/static/media/Ukietech.869c135e.png"
+  },
+  {
+    "revision": "fb689d33ef1fe7ae5b2ac5b25ceb481c",
+    "url": "/grant/static/media/academy.fb689d33.svg"
+  },
+  {
+    "revision": "dc15980e00c5df0ffac73e55823295bd",
+    "url": "/grant/static/media/academy2.dc15980e.svg"
   },
   {
     "revision": "ba5c07155144999aea61eba25781231c",
