@@ -25,6 +25,16 @@
         .logo {
             margin-bottom: 40px;
         }
+        .langButtons {
+            display: flex;
+            font-size: 22px;
+            .button {
+                cursor: pointer;
+            }
+            .active {
+                font-family: "Futura PT Bold";
+            }
+        }
         .items {
             .item {
                 margin: 20px 0;

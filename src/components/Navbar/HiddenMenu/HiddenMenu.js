@@ -1,9 +1,14 @@
 import React from 'react';
 import './HiddenMenu.scss';
 import { Link } from 'react-scroll';
-import Logo from '../../../assets/images/logo/academy.svg'
+import Logo from '../../../assets/images/logo/academy.svg';
+import enLang from '../../../assets/language/en.json';
+import uaLang from '../../../assets/language/ua.json';
 
 function HiddenMenu(props) {
+    let lang = props.lang ? uaLang : enLang;
+    const { ua, en } = lang.lang;
+    const { home, aboutUs, grantProgram, programPlan, signIn, courses } = lang.navbar;
     return (
         <div className="HiddenMenu"
             style={props.isMenuOpen ? { transform: "translateX(0)" } : null} onClick={props.toggleMenu}>
@@ -11,6 +16,17 @@ function HiddenMenu(props) {
                 <div className="menu">
                     <div className="logo">
                         <img src={Logo} alt="" />
+                    </div>
+                    <div className="langButtons">
+                        <div
+                            className={props.uaActive ? "button active" : "button"}
+                            onClick={props.getUaLang}
+
+                        >{ua}</div> |
+                        <div
+                            className={props.enActive ? "button active" : "button"}
+                            onClick={props.getEnLang}
+                        >{en}</div>
                     </div>
                     <nav className="items">
                         <nav className="items">
@@ -24,7 +40,7 @@ function HiddenMenu(props) {
                                     duration={500}
                                     onClick={props.toggleMenu}
 
-                                >Головна</Link></div>
+                                >{home}</Link></div>
                             <div className="item">
                                 <Link
                                     className="itemLink"
@@ -35,7 +51,7 @@ function HiddenMenu(props) {
                                     offset={-80}
                                     onClick={props.toggleMenu}
 
-                                >Про нас</Link></div>
+                                >{aboutUs}</Link></div>
                             <div className="item">
                                 <Link
                                     className="itemLink"
@@ -46,7 +62,7 @@ function HiddenMenu(props) {
                                     offset={-80}
                                     onClick={props.toggleMenu}
 
-                                >Грантова програма</Link></div>
+                                >{grantProgram}</Link></div>
                             <div className="item">
                                 <Link
                                     className="itemLink"
@@ -57,7 +73,7 @@ function HiddenMenu(props) {
                                     offset={-80}
                                     onClick={props.toggleMenu}
 
-                                >Програма</Link></div>
+                                >{programPlan}</Link></div>
                             <div className="item">
                                 <Link
                                     className="itemLink"
@@ -68,7 +84,7 @@ function HiddenMenu(props) {
                                     offset={-80}
                                     onClick={props.toggleMenu}
 
-                                >Реєстрація</Link></div>
+                                >{signIn}</Link></div>
                             <div className="item">
                                 <Link
                                     className="itemLink"
@@ -79,7 +95,7 @@ function HiddenMenu(props) {
                                     offset={-80}
                                     onClick={props.toggleMenu}
 
-                                >Курси програмування</Link></div>
+                                >{courses}</Link></div>
                         </nav>
                     </nav>
 

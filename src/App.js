@@ -18,12 +18,35 @@ import HiddenMenu from './components/Navbar/HiddenMenu/HiddenMenu';
 
 class App extends Component {
   state = {
-    isMenuOpen: false
+    isMenuOpen: false,
+    lang: true,
+    isLangUaActive: true,
+    isLangEnActive: false
   }
 
   toggleMenu = () => {
     this.setState({
       isMenuOpen: !this.state.isMenuOpen
+    })
+  }
+  getUaLang = (e) => {
+    e.stopPropagation();
+
+    this.setState({
+      lang: true,
+      isLangUaActive: true,
+      isLangEnActive: false
+
+    })
+  }
+  getEnLang = (e) => {
+    e.stopPropagation();
+
+    this.setState({
+      lang: false,
+      isLangUaActive: false,
+      isLangEnActive: true
+
     })
   }
   render() {
@@ -33,6 +56,11 @@ class App extends Component {
         <Navbar
           isMenuOpen={this.state.isMenuOpen}
           toggleMenu={this.toggleMenu}
+          lang={this.state.lang}
+          uaActive={this.state.isLangUaActive}
+          enActive={this.state.isLangEnActive}
+          getUaLang={this.getUaLang}
+          getEnLang={this.getEnLang}
         />
 
         <BurgerButton
@@ -42,10 +70,19 @@ class App extends Component {
         <HiddenMenu
           isMenuOpen={this.state.isMenuOpen}
           toggleMenu={this.toggleMenu}
+          lang={this.state.lang}
+          uaActive={this.state.isLangUaActive}
+          enActive={this.state.isLangEnActive}
+          getUaLang={this.getUaLang}
+          getEnLang={this.getEnLang}
         />
-        <Header />
+        <Header
+          lang={this.state.lang}
+        />
 
-        <AboutUs />
+        <AboutUs
+          lang={this.state.lang}
+        />
         <FontAwesomeIcon
           className="icon"
           icon={faArrowCircleUp}
@@ -55,11 +92,21 @@ class App extends Component {
             })
           }}
         />
-        <Courses />
-        <GrantProgram />
-        <ProgramPlan />
-        <SignUp />
-        <Footer />
+        <Courses
+          lang={this.state.lang}
+        />
+        <GrantProgram
+          lang={this.state.lang}
+        />
+        <ProgramPlan
+          lang={this.state.lang}
+        />
+        <SignUp
+          lang={this.state.lang}
+        />
+        <Footer
+          lang={this.state.lang}
+        />
 
       </div>
     );

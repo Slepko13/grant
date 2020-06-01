@@ -1,18 +1,36 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../../assets/images/logo/academy2.svg';
+import enLang from '../../assets/language/en.json';
+import uaLang from '../../assets/language/ua.json';
 
 import './Navbar.scss';
 
 
 function Navbar(props) {
+    let lang = props.lang ? uaLang : enLang;
+    const { ua, en } = lang.lang;
+    const { home, aboutUs, grantProgram, programPlan, signIn, courses } = lang.navbar;
     return (
+
         <section className="Navbar">
             <div className="container">
                 <div className="wrapper">
                     <div className="logo">
                         <img src={Logo} alt="logo" />
+                        <div className="langButtons">
+                            <div
+                                className={props.uaActive ? "button active" : "button"}
+                                onClick={props.getUaLang}
+
+                            >{ua}</div> |
+                        <div
+                                className={props.enActive ? "button active" : "button"}
+                                onClick={props.getEnLang}
+                            >{en}</div>
+                        </div>
                     </div>
+
                     <nav className="items">
                         <div className="item">
                             <Link
@@ -22,7 +40,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                            >Головна</Link></div>
+                            >{home}</Link></div>
                         <div className="item">
                             <Link
                                 className="itemLink"
@@ -32,7 +50,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={-80}
 
-                            >Про нас</Link></div>
+                            >{aboutUs}</Link></div>
                         <div className="item">
                             <Link
                                 className="itemLink"
@@ -42,7 +60,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={-80}
 
-                            >Грантова програма</Link></div>
+                            >{grantProgram}</Link></div>
                         <div className="item">
                             <Link
                                 className="itemLink"
@@ -52,7 +70,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={-80}
 
-                            >Програма</Link></div>
+                            >{programPlan}</Link></div>
                         <div className="item">
                             <Link
                                 className="itemLink"
@@ -62,7 +80,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={-80}
 
-                            >Реєстрація</Link></div>
+                            >{signIn}</Link></div>
                         <div className="item">
                             <Link
                                 className="itemLink"
@@ -72,7 +90,7 @@ function Navbar(props) {
                                 smooth={true}
                                 offset={-80}
 
-                            >Курси програмування</Link></div>
+                            >{courses}</Link></div>
 
                     </nav>
                 </div>

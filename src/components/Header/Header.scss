@@ -2,12 +2,12 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 
 .Header {
-    padding-top: 100px;
+    padding-top: 140px;
 
     .container {
         .wrapper {
             display: flex;
-            // min-height: 500px;
+            justify-content: space-between;
             .contentLeft {
                 display: flex;
                 flex-direction: column;

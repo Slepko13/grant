@@ -2,23 +2,18 @@ import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import YupSchema from './YupSchema';
 import './SignUp.scss';
+import enLang from '../../assets/language/en.json';
+import uaLang from '../../assets/language/ua.json';
 
-function SignUp() {
+function SignUp(props) {
+    let lang = props.lang ? uaLang : enLang;
+    const { title, firstName, lastName, email, phone, location, button } = lang.signUp;
     return (
         <section id="signUp" className="SignUp">
             <div className="container">
                 <div className="wrapper">
-                    <h2 className="title">Зареєструйся на безкоштовне навчання від ITCA вже сьогодні!</h2>
+                    <h2 className="title">{title}</h2>
                     <div className="registration">
-                        {/* <div className="items">
-                            <div className="item">First name</div>
-                            <div className="item">Last name</div>
-                            <div className="item">E-mail</div>
-                            <div className="item">Phone number</div>
-                            <div className="item">City</div>
-                        </div> */}
-
-
 
                         <Formik
                             initialValues={{
@@ -27,42 +22,29 @@ function SignUp() {
                                 phone: '',
                                 email: '',
                                 location: ''
-
                             }}
                             validationSchema={YupSchema}
-
-                            // handleChange={props.handleChange}
-
                             onSubmit={(values, { setSubmitting, resetForm }) => {
                                 setTimeout(() => {
-                                    // alert(JSON.stringify(values, null, 2));
-                                    // props.closeFormikModal(values);
                                     resetForm();
                                     console.log(values);
-                                    // setSubmitting(false);
                                 }, 400);
                             }}
                         >
-
-
                             <Form className="form"
                             >
-
-
                                 <Field
                                     className="form__firstName"
                                     name="firstName"
-                                    placeholder="ім'я"
+                                    placeholder={firstName}
                                 />
-
-
                                 <div className="error__message">
                                     <ErrorMessage className="error__message" name="firstName" />
                                 </div>
                                 <Field
                                     className="form__lastName"
                                     name="lastName"
-                                    placeholder="прізвище"
+                                    placeholder={lastName}
                                 />
                                 <div className="error__message">
                                     <ErrorMessage className="error__message" name="lastName" />
@@ -70,7 +52,7 @@ function SignUp() {
                                 <Field
                                     className="form__email"
                                     name="email"
-                                    placeholder="електронна пошта"
+                                    placeholder={email}
                                 />
 
                                 <div className="error__message">
@@ -80,7 +62,7 @@ function SignUp() {
                                 <Field
                                     className="form__phone"
                                     name="phone"
-                                    placeholder="контактний телефон"
+                                    placeholder={phone}
                                 />
                                 <div className="error__message">
                                     {/* <div>&nbsp;</div> */}
@@ -89,7 +71,7 @@ function SignUp() {
                                 <Field
                                     className="form__location"
                                     name="location"
-                                    placeholder="місто"
+                                    placeholder={location}
                                 />
                                 <div className="error__message">
                                     <ErrorMessage name="location" />
@@ -99,7 +81,7 @@ function SignUp() {
                                 <input
                                     className="form__button"
                                     type="submit"
-                                    value="Надіслати"
+                                    value={button}
                                 />
 
                             </Form>
