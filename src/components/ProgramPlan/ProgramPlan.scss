@@ -19,10 +19,14 @@
                 justify-content: space-around;
             }
             .item {
-                border: 1px solid grey;
                 width: 300px;
                 min-height: 200px;
                 margin-bottom: 10px;
+                background-color: #f8fbff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
         }
         .teachers {
