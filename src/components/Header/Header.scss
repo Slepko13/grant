@@ -2,17 +2,27 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 
 .Header {
-    padding-top: 140px;
+    @media screen and (min-width: 768px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     .container {
         .wrapper {
             display: flex;
             justify-content: space-between;
+            @media screen and (min-width: 768px) {
+                margin-top: 120px;
+                margin-bottom: 100px;
+                min-height: 600px;
+            }
             .contentLeft {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
+                margin: 50px 0;
+
                 .title {
                     text-transform: capitalize;
                     font-family: "Futura PT Bold";
@@ -50,14 +60,14 @@ $bgColor: #f8fbff;
                 }
             }
             .contentRight {
-                min-height: 200px;
+                // min-height: 200px;
                 background: url("../../assets/images/illustrations/illustration1.svg") center center no-repeat;
                 background-size: 100% 100%;
             }
         }
-    }
-    .partnersTitle {
-        text-align: center;
-        margin: 50px 0 30px 0;
+        .partnersTitle {
+            text-align: center;
+            margin: 30px 0 100px 0;
+        }
     }
 }

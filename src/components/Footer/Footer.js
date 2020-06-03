@@ -10,7 +10,7 @@ function Footer(props) {
     let lang = props.lang ? uaLang : enLang;
     const { phone, email } = lang.footer;
     return (
-        <footer id="footer" className="Footer">
+        <footer id="footer" className="Footer ">
             <div className="container">
                 <div className=" wrapper  row">
                     <div className=" footerLogo col-12 col-md-6 ">
@@ -62,7 +62,9 @@ function Footer(props) {
                     </div>
                 </div>
             </div>
-
+            <div className='container-fluid bottomBar'>
+                <div className="copyright">© {new Date().getUTCFullYear()} | Copyright | All rights reserved</div>
+            </div>
         </footer>
     )
 }

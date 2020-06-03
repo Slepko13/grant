@@ -72,7 +72,9 @@ function SignUp(props) {
                                     className="form__location"
                                     name="location"
                                     placeholder={location}
-                                />
+                                >
+                                </Field>
+
                                 <div className="error__message">
                                     <ErrorMessage name="location" />
                                 </div>

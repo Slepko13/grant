@@ -1,8 +1,11 @@
 .Partners {
+    border: 2px dotted blue;
+
     .wrap {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border: 2px solid red;
 
         .partner {
             margin: 5px;
@@ -21,7 +24,7 @@
         }
     }
     .slick-dots {
-        bottom: -100px;
+        bottom: -60px;
         li {
             .changeBack {
                 border-radius: 50%;
