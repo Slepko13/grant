@@ -62,11 +62,15 @@ function FixedSocials(props) {
 
                     </> :
                     <>
-                        <FontAwesomeIcon
-                            className="iconClose"
-                            icon={faTimes}
-                        />
+                        <div className="wrap">
+                            <FontAwesomeIcon
+                                className="iconClose"
+                                icon={faTimes}
+                            />
+                        </div>
                         <div className="telegram" >
+                            <div className="message">Telegram</div>
+
                             <a className="telegramLink" href="https://t.me/ITforallpeople" target="_blank">
                                 <FontAwesomeIcon
                                     className="telegramIcon"
@@ -75,6 +79,7 @@ function FixedSocials(props) {
                             </a>
                         </div>
                         <div className="viber">
+                            <div className="message">Viber</div>
 
                             <a className="viberLink" href="viber://chat?number=%2B0986554529" target="_blank">
                                 <FontAwesomeIcon
@@ -84,6 +89,7 @@ function FixedSocials(props) {
                             </a>
                         </div>
                         <div className="messenger">
+                            <div className="message">Messenger</div>
 
                             <a className="messengerLink" href="https://m.me/itclusteracademy/" target="_blank">
                                 <FontAwesomeIcon
@@ -93,6 +99,7 @@ function FixedSocials(props) {
                             </a>
                         </div>
                         <div className="email">
+                            <div className="message">Email</div>
 
                             <a className="emailLink" href="mailto:itcaedu.online@gmail.com" target="_blank">
                                 <FontAwesomeIcon
@@ -102,6 +109,8 @@ function FixedSocials(props) {
                             </a>
                         </div>
                         <div className="phone">
+                            <div className="message">Phone</div>
+
                             <a className="phoneLink" href="tel:+380986554529" target="_blank">
                                 <FontAwesomeIcon
                                     className="phoneIcon"
