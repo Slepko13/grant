@@ -1,102 +1,165 @@
 .SignUp {
-    background: linear-gradient(45deg, #3d1659, #f8fbff);
-    border: 2px solid red;
+    background-color: #4512ab;
 
-    // padding: 100px;
     @media screen and (min-width: 768px) {
         min-height: 680px;
         margin-top: 50px;
+        background-color: #4512ab;
     }
+    .for-waves {
+        background-color: white;
+    }
+
     .container {
-        .wrapper {
+        .d-flex {
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            .title {
-                text-transform: uppercase;
-                margin-bottom: 30px;
-                text-align: center;
-                margin-top: 70px;
-                font-family: "Futura PT Bold";
-                font-size: 48px;
-                color: white;
-                @media screen and (max-width: 767px) {
-                    font-size: 16px;
-                    margin-top: 40px;
-                }
+            @media screen and (max-width: 768px) {
+                //
             }
-            .registration {
-                display: flex;
-                justify-content: space-evenly;
-                margin-top: 40px;
-                margin-bottom: 20px;
-                .items {
-                    .item {
-                        width: 100%;
-                        height: 50px;
-                        padding-left: 10px;
-                        box-sizing: border-box;
-                        border: 1px solid #ffffff;
-                        border-radius: 10px;
-                        outline: none;
-                        background-color: transparent;
-                        margin-bottom: 10px;
-                    }
+            .left-content {
+                @media screen and (max-width: 768px) {
+                    display: none;
                 }
-                .form {
+                .airplane {
+                    height: 61vh;
+                    background: url("../../assets/images/plane.svg") center center no-repeat;
+                    background-size: contain;
+                }
+                .air-icon {
+                    width: 100%;
                     display: flex;
-                    flex-direction: column;
                     justify-content: center;
-                    align-items: flex-start;
-                    width: 300px;
-                    background-color: transparent;
-                    border-radius: 4px;
-                    font-family: "Futura PT";
+                    align-items: center;
+                    .centered-icon {
+                        width: 170px;
+                        display: flex;
+                        margin-left: 15px;
+                        justify-content: space-between;
 
-                    .error__message {
-                        color: red;
-                        font-size: 12px;
-                        text-align: left;
-                        width: 100%;
-                        margin-bottom: 10px;
-                    }
-                    &__email,
-                    &__phone,
-                    &__location,
-                    &__firstName,
-                    &__lastName {
-                        width: 100%;
-                        height: 50px;
-                        padding-left: 10px;
-                        box-sizing: border-box;
-                        border: 1px solid #ffffff;
-                        border-radius: 10px;
-                        outline: none;
-                        background-color: transparent;
-                        margin-bottom: 10px;
+                        .icon-edit {
+                            width: 35px;
+                            height: 35px;
+                            color: #c28be9;
+                            transition: 0.5s;
 
-                        &::placeholder {
-                            opacity: 0.6;
-                            color: #ffffff;
+                            &:hover {
+                                color: white;
+                                transition: 0.5s;
+                            }
                         }
                     }
-
-                    &__button {
-                        width: 150px;
-                        color: #fff;
+                }
+            }
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .title {
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                    text-align: center;
+                    margin-top: 100px;
+                    color: aliceblue;
+                    @media screen and (max-width: 767px) {
+                        font-size: 16px;
+                        margin-top: 40px;
+                    }
+                }
+                .registration {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                    .items {
+                        .item {
+                            width: 100%;
+                            height: 50px;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                            border: 1px solid #ffffff;
+                            border-radius: 10px;
+                            outline: none;
+                            background-color: transparent;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        width: 300px;
                         background-color: transparent;
-                        border: 1px solid #ffffff;
-                        height: 40px;
-                        font-family: "Futura PT Bold";
-                        text-transform: uppercase;
-                        outline: none;
-                        margin-bottom: 20px;
-                        border-radius: 10px;
-                        cursor: pointer;
-                        font-weight: bolder;
-                        &:hover {
-                            background-color: #3d1659;
+                        border-radius: 4px;
+                        font-family: "Futura PT";
+
+                        .error__message {
+                            color: red;
+                            font-size: 12px;
+                            text-align: left;
+                            width: 100%;
+                            margin-bottom: 10px;
+                        }
+                        &__email,
+                        &__phone,
+                        &__location,
+                        &__firstName,
+                        &__lastName {
+                            width: 100%;
+                            height: 50px;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                            border: 1px solid #ffffff;
+                            border-radius: 10px;
+                            outline: none;
+                            background-color: transparent;
+                            margin-bottom: 10px;
+
+                            &::placeholder {
+                                opacity: 0.6;
+                                color: #ffffff;
+                            }
+                        }
+
+                        &__button {
+                            width: 150px;
+                            color: #fff;
+                            background-color: transparent;
+                            border: 1px solid #ffffff;
+                            height: 40px;
+                            font-family: "Futura PT Bold";
+                            text-transform: uppercase;
+                            outline: none;
+                            margin-bottom: 20px;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            font-weight: bolder;
+                            transition: 0.5s;
+                            &:hover {
+                                background-color: #6e5083;
+                                transition: 0.5s;
+                            }
+                        }
+                        .air-icon {
+                            width: 100%;
+                            display: flex;
+                        }
+                        .centered-icon {
+                            width: 50%;
+                            display: inline-flex;
+                            justify-content: space-around;
+                            @media screen and (min-width: 768px) {
+                                display: none;
+                            }
+
+                            .icon-edit {
+                                width: 30px;
+                                height: 30px;
+                                color: white;
+                            }
                         }
                     }
                 }
