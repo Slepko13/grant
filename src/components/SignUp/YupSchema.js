@@ -1,5 +1,7 @@
 import * as Yup from "yup";
-const phoneRegExp = /^\+380\d{3}\d{2}\d{2}\d{2}$/;
+const phoneRegExp = /^[\+\d\(\)\ -]{4,18}\d$/;
+
+
 const YupSchema = Yup.object({
     email: Yup.string()
         .email("Invalid email address")
