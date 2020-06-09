@@ -20,12 +20,12 @@ function Navbar(props) {
                         <img src={Logo} alt="logo" />
                         <div className="langButtons">
                             <div
-                                className={props.uaActive ? "button active" : "button"}
+                                className={props.uaActive ? " active" : "button"}
                                 onClick={props.getUaLang}
 
                             >{ua}</div> |
                         <div
-                                className={props.enActive ? "button active" : "button"}
+                                className={props.enActive ? " active" : "button"}
                                 onClick={props.getEnLang}
                             >{en}</div>
                         </div>
