@@ -12,15 +12,15 @@ function GrantProgram(props) {
             <div className="container">
                 <div className="wrapper row">
                     <h2 className="titleTop col-12">{programTitle}</h2>
-                    <div className="contentLeft col-12 col-md-7">
+                    <div className="contentLeft col-12 col-lg-7">
                     </div>
-                    <div className="contentRight col-12 col-md-5">
+                    <div className="contentRight col-12 col-lg-5">
                         <div className="text ">{programText}</div>
                     </div>
                     <h2 className="titleBottom col-12 ">{partisipationTitle}</h2>
-                    <div className="contentLeftPartisipation col-12 col-md-7">
+                    <div className="contentLeftPartisipation col-12 col-lg-7">
                     </div>
-                    <div className="contentRightPartisipation col-12 col-md-5">
+                    <div className="contentRightPartisipation col-12 col-lg-5">
                         <div className="text ">{partisipationText}</div>
                         <div className="registrationButton ">
                             <Link
@@ -28,7 +28,7 @@ function GrantProgram(props) {
                                 to="signUp"
                                 duration={500}
                                 smooth={true}
-                                offset={-80}
+                                offset={80}
                             >{button}</Link>
                         </div>
                     </div>

@@ -53,6 +53,7 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="grantProgram"
                                     duration={500}
+                                    offset={60}
                                     smooth={true}
                                     onClick={props.toggleMenu}
                                 >{grantProgram}</Link></div>
@@ -62,6 +63,7 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="programPlan"
                                     duration={500}
+                                    offset={60}
                                     smooth={true}
                                     onClick={props.toggleMenu}
                                 >{programPlan}</Link></div>
@@ -71,6 +73,7 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="signUp"
                                     duration={500}
+                                    offset={60}
                                     smooth={true}
                                     onClick={props.toggleMenu}
                                 >{signIn}</Link></div>
@@ -80,6 +83,7 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="courses"
                                     duration={500}
+                                    offset={180}
                                     smooth={true}
                                     onClick={props.toggleMenu}
                                 >{courses}</Link></div>

@@ -2,9 +2,11 @@
     background-color: #4512ab;
     @media screen and (min-width: 768px) {
         min-height: 680px;
-        background-color: #4512ab;
     }
-    .for-waves {
+    .waveTop {
+        background-color: white;
+    }
+    .waveBottom {
         background-color: white;
     }
     .container {

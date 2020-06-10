@@ -11,9 +11,9 @@ function AboutUs(props) {
             <div className="container">
                 <div className="wrapper row">
                     <h2 className="title col-12">{title}</h2>
-                    <div className="contentLeft col-12 col-md-7">
+                    <div className="contentLeft col-12 col-lg-7">
                     </div>
-                    <div className="contentRight col-12 col-md-5 ">
+                    <div className="contentRight col-12 col-lg-5 ">
                         <div className="text ">{text}</div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@ $bgColor: #f8fbff;
             }
             .contentLeft {
                 background: url("../../assets/images/illustrations/grantProgram_1.png") left bottom no-repeat;
-                background-size: 100% 100%;
+                background-size: contain;
                 margin-bottom: 20px;
                 min-height: 200px;
                 @media screen and (min-width: 768px) {
@@ -53,6 +53,7 @@ $bgColor: #f8fbff;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
                 .text {
                     font-size: 22px;
                     color: #3d1659;
@@ -62,7 +63,7 @@ $bgColor: #f8fbff;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    align-self: flex-start;
+                    align-self: flex-end;
                     border: 1px solid #3d1659;
                     width: 150px;
                     height: 40px;
@@ -91,9 +92,12 @@ $bgColor: #f8fbff;
             }
             .contentLeftPartisipation {
                 background: url("../../assets/images/illustrations/grantProgram_2.png") left bottom no-repeat;
-                background-size: 100% 100%;
+                background-size: contain;
                 min-height: 200px;
                 margin-bottom: 20px;
+                @media screen and (min-width: 768px) {
+                    min-height: 400px;
+                }
             }
         }
     }

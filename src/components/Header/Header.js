@@ -21,7 +21,7 @@ function Header(props) {
                                 to="signUp"
                                 duration={500}
                                 smooth={true}
-                                offset={-80}
+                                offset={80}
                             >{button}</Link>
                         </div>
                     </div>

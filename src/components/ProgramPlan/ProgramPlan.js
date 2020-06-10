@@ -45,12 +45,12 @@ function ProgramPlan(props) {
                     <h2 className="teachersTitle mt-5">{teachersTitle}</h2>
                     <div className="teachers row">
                         <div className="teacher col-12 col-md-6">
-                            <div className=""><img src={softServe} alt="teacher photo" className="teacherImage" /></div>
+                            <div className=""><img src={softServe} alt="teacher" className="teacherImage" /></div>
                             <h3 className="name">{name_1}</h3>
                             <div className="position">{position_1}</div>
                         </div>
                         <div className="teacher col-12 col-md-6">
-                            <div className=""><img src={eleks} alt="teacher photo" className="teacherImage" /></div>
+                            <div className=""><img src={eleks} alt="teacher" className="teacherImage" /></div>
                             <h3 className="name">{name_2}</h3>
                             <div className="position">{position_2}</div>
                         </div>
