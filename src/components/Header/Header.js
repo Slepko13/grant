@@ -8,7 +8,6 @@ import uaLang from '../../assets/language/ua.json';
 function Header(props) {
     let lang = props.lang ? uaLang : enLang;
     const { title, text, button, partnersTitle } = lang.header;
-
     return (
         <header id="header" className="Header">
             <div className="container">
@@ -32,8 +31,6 @@ function Header(props) {
                 <h2 className="partnersTitle">{partnersTitle}</h2>
                 <Partners />
             </div>
-
-
         </header>
     )
 }

@@ -6,7 +6,7 @@
     width: 100%;
     z-index: 10;
     height: 80px;
-    background-color: #fff;
+    background-color: #f8fbff;
     display: flex;
     align-items: center;
     @media screen and (max-width: 992px) {
@@ -47,7 +47,6 @@
                 }
             }
         }
-
         .items {
             display: flex;
             justify-content: space-between;
@@ -55,16 +54,13 @@
             .item {
                 margin: 0 20px;
                 color: #3d1659;
-
                 .itemLink {
                     color: #3d1659;
                     text-decoration: none;
                     border-bottom: 2px solid transparent;
                     cursor: pointer;
                     &:hover {
-                        // border-bottom: 2px solid #3d1659;
                         color: rgba(204, 78, 128, 1);
-                        // text-shadow: 1px 1px 12px #3d1659;
                     }
                 }
                 .active {

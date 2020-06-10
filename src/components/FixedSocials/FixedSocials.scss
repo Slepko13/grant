@@ -50,7 +50,6 @@
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
             z-index: 1;
             transition: bottom 2s;
-
             .telegramLink {
                 width: 100%;
                 height: 100%;
@@ -61,7 +60,6 @@
                 &:hover {
                     background-color: rgb(26, 15, 126);
                 }
-
                 .telegramIcon {
                     width: 60%;
                     height: 60%;
@@ -83,7 +81,6 @@
             align-items: center;
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
             transition: bottom 2s;
-
             .viberLink {
                 width: 100%;
                 height: 100%;
@@ -95,7 +92,6 @@
                 &:hover {
                     background-color: rgb(20, 4, 32);
                 }
-
                 .viberIcon {
                     width: 60%;
                     height: 60%;
@@ -116,7 +112,6 @@
             align-items: center;
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
             transition: bottom 2s;
-
             .messengerLink {
                 width: 100%;
                 height: 100%;
@@ -127,7 +122,6 @@
                 &:hover {
                     background-color: rgb(61, 37, 192);
                 }
-
                 .messengerIcon {
                     width: 60%;
                     height: 60%;
@@ -148,7 +142,6 @@
             align-items: center;
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
             transition: bottom 2s;
-
             .emailLink {
                 width: 100%;
                 height: 100%;
@@ -159,7 +152,6 @@
                 &:hover {
                     background-color: rgb(12, 119, 53);
                 }
-
                 .emailIcon {
                     width: 60%;
                     height: 60%;
@@ -191,7 +183,6 @@
                 &:hover {
                     background-color: rgb(228, 27, 94);
                 }
-
                 .phoneIcon {
                     width: 60%;
                     height: 60%;
@@ -240,7 +231,6 @@
         height: 60px;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
         cursor: pointer;
-
         .wrap {
             z-index: 50;
             background-color: #f8fbff;
@@ -302,7 +292,6 @@
                 justify-content: center;
                 align-items: center;
                 border-radius: 50%;
-
                 .telegramIcon {
                     width: 60%;
                     height: 60%;
@@ -357,7 +346,6 @@
                 &:hover {
                     background-color: rgb(20, 4, 32);
                 }
-
                 .viberIcon {
                     width: 60%;
                     height: 60%;
@@ -411,7 +399,6 @@
                 &:hover {
                     background-color: rgb(61, 37, 192);
                 }
-
                 .messengerIcon {
                     width: 60%;
                     height: 60%;
@@ -465,7 +452,6 @@
                 &:hover {
                     background-color: rgb(12, 119, 53);
                 }
-
                 .emailIcon {
                     width: 60%;
                     height: 60%;
@@ -520,7 +506,6 @@
                 &:hover {
                     background-color: rgb(228, 27, 94);
                 }
-
                 .phoneIcon {
                     width: 60%;
                     height: 60%;

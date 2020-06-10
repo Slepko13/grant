@@ -2,21 +2,21 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 .AboutUs {
     @media screen and (min-width: 768px) {
-        padding-top: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .container {
         .wrapper {
-            display: flex;
             @media screen and (min-width: 768px) {
                 min-height: 600px;
-                margin-top: 50px;
             }
             .title {
                 text-align: center;
-                margin: 50px 0;
+                margin-top: 20px;
                 font-family: "Futura PT Bold";
                 font-size: 48px;
+                @media screen and (max-width: 768px) {
+                    font-size: 36px;
+                }
             }
             .contentRight {
                 display: flex;
@@ -24,14 +24,16 @@ $bgColor: #f8fbff;
                 align-items: center;
                 .text {
                     font-size: 22px;
-                    color: $textColor;
+                    color: #3d1659;
                 }
             }
             .contentLeft {
-                min-height: 200px;
-                margin-bottom: 20px;
+                min-height: 400px;
                 background: url("../../assets/images/About/About_ITCA.svg") center center no-repeat;
                 background-size: 100% 100%;
+                @media screen and (max-width: 768px) {
+                    margin-bottom: 20px;
+                }
             }
         }
     }

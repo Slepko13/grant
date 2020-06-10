@@ -3,16 +3,13 @@ import { Link } from 'react-scroll';
 import Logo from '../../assets/images/logo/academy2.svg';
 import enLang from '../../assets/language/en.json';
 import uaLang from '../../assets/language/ua.json';
-
 import './Navbar.scss';
-
 
 function Navbar(props) {
     let lang = props.lang ? uaLang : enLang;
     const { ua, en } = lang.lang;
     const { home, aboutUs, grantProgram, programPlan, signIn, courses } = lang.navbar;
     return (
-
         <section className="Navbar">
             <div className="container">
                 <div className="wrapper">
@@ -22,7 +19,6 @@ function Navbar(props) {
                             <div
                                 className={props.uaActive ? " active" : "button"}
                                 onClick={props.getUaLang}
-
                             >{ua}</div> |
                         <div
                                 className={props.enActive ? " active" : "button"}
@@ -30,7 +26,6 @@ function Navbar(props) {
                             >{en}</div>
                         </div>
                     </div>
-
                     <nav className="items">
                         <div className="item">
                             <Link
@@ -38,7 +33,6 @@ function Navbar(props) {
                                 activeClass="active"
                                 to="header"
                                 smooth={true}
-                                // offset={50}
                                 duration={500}
                             >{home}</Link></div>
                         <div className="item">
@@ -48,8 +42,7 @@ function Navbar(props) {
                                 to="aboutUs"
                                 duration={500}
                                 smooth={true}
-                                offset={-40}
-
+                                offset={-120}
                             >{aboutUs}</Link></div>
                         <div className="item">
                             <Link
@@ -59,7 +52,6 @@ function Navbar(props) {
                                 duration={500}
                                 smooth={true}
                                 offset={-80}
-
                             >{grantProgram}</Link></div>
                         <div className="item">
                             <Link
@@ -69,7 +61,6 @@ function Navbar(props) {
                                 duration={500}
                                 smooth={true}
                                 offset={-80}
-
                             >{programPlan}</Link></div>
                         <div className="item">
                             <Link
@@ -79,7 +70,6 @@ function Navbar(props) {
                                 duration={500}
                                 smooth={true}
                                 offset={80}
-
                             >{signIn}</Link></div>
                         <div className="item">
                             <Link
@@ -89,15 +79,10 @@ function Navbar(props) {
                                 duration={500}
                                 smooth={true}
                                 offset={100}
-
                             >{courses}</Link></div>
-
                     </nav>
                 </div>
-
-
             </div>
-
         </section>
     )
 }

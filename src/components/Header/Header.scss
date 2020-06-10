@@ -1,6 +1,5 @@
 $textColor: #3d1659;
 $bgColor: #f8fbff;
-$calc: calc(100vw-200px);
 .Header {
     background: url("../../assets/images/Hero/Treee_Man_Hero.svg") right top no-repeat,
         url("../../assets/images/Hero/Moon.svg") left -7% no-repeat,
@@ -26,14 +25,13 @@ $calc: calc(100vw-200px);
             url("../../assets/images/Hero/Hero\ Composition.svg") right top no-repeat;
         background-size: auto, auto, 780px;
     }
-
     .container {
         .wrapper {
             display: flex;
             justify-content: space-between;
             @media screen and (min-width: 992px) {
                 margin-top: 80px;
-                margin-bottom: 100px;
+                margin-bottom: 40px;
                 min-height: 600px;
             }
             .contentLeft {
@@ -45,12 +43,11 @@ $calc: calc(100vw-200px);
                 @media screen and (min-width: 992px) {
                     justify-content: flex-end;
                 }
-
                 .title {
                     text-transform: capitalize;
                     font-family: "Futura PT Bold";
-                    font-size: 28px;
-                    @media screen and (min-width: 992px) {
+                    font-size: 36px;
+                    @media screen and (min-width: 767px) {
                         font-size: 48px;
                     }
                 }
@@ -73,7 +70,6 @@ $calc: calc(100vw-200px);
                     @media screen and (min-width: 992px) {
                         margin-bottom: 100px;
                     }
-
                     &:hover {
                         background-color: #3d1659;
                     }
@@ -97,9 +93,12 @@ $calc: calc(100vw-200px);
         }
         .partnersTitle {
             text-align: center;
-            margin: 0 0 50px 0;
+            margin-bottom: 20px;
             font-family: "Futura PT Bold";
-            font-size: 36px;
+            font-size: 24px;
+            @media screen and (min-width: 767px) {
+                font-size: 36px;
+            }
         }
     }
 }

@@ -10,10 +10,6 @@ import hr from '../../assets/images/courses/hrinit 1.svg';
 import pm from '../../assets/images/courses/Project management 1.svg';
 import CourseCard from './CourseCard/CourseCard';
 
-
-
-
-
 function Courses(props) {
     let lang = props.lang ? uaLang : enLang;
     const { sectionTitle_1, sectionTitle_2, start, soon, project, mentor, test, button } = lang.courses;
@@ -24,7 +20,6 @@ function Courses(props) {
                 <div className="wrapper">
                     <h2 className="sectionTitle">{sectionTitle_1}<br />{sectionTitle_2}</h2>
                     <div className="items">
-
                         <CourseCard
                             course={qc}
                             date="05.06.2020"
@@ -100,7 +95,6 @@ function Courses(props) {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }

@@ -15,8 +15,6 @@ import topic8 from '../../assets/images/program-plan/8.png';
 import topic9 from '../../assets/images/program-plan/9.png';
 import ProgramCard from './ProgramCard/ProgramCard';
 
-
-
 function ProgramPlan(props) {
     let lang = props.lang ? uaLang : enLang;
     const {
@@ -43,35 +41,22 @@ function ProgramPlan(props) {
                                 text={item}
                                 link={links[index]}
                             />)}
-
-                        {/* <div className="itemText">{items[0]}</div> */}
-
-                        {/* <div className="item">{items[1]}</div>
-                        <div className="item">{items[2]}</div>
-                        <div className="item">{items[3]}</div>
-                        <div className="item">{items[4]}</div>
-                        <div className="item">{items[5]}</div>
-                        <div className="item">{items[6]}</div>
-                        <div className="item">{items[7]}</div>
-                        <div className="item">{items[8]}</div> */}
                     </div>
-                    <h2 className="title mt-5">{teachersTitle}</h2>
+                    <h2 className="teachersTitle mt-5">{teachersTitle}</h2>
                     <div className="teachers row">
                         <div className="teacher col-12 col-md-6">
-                            <div className=""><img src={softServe} alt="" className="teacherImage" /></div>
+                            <div className=""><img src={softServe} alt="teacher photo" className="teacherImage" /></div>
                             <h3 className="name">{name_1}</h3>
                             <div className="position">{position_1}</div>
                         </div>
                         <div className="teacher col-12 col-md-6">
-                            <div className=""><img src={eleks} alt="" className="teacherImage" /></div>
+                            <div className=""><img src={eleks} alt="teacher photo" className="teacherImage" /></div>
                             <h3 className="name">{name_2}</h3>
                             <div className="position">{position_2}</div>
-
                         </div>
                     </div>
                 </div>
             </div >
-
         </section >
     )
 }

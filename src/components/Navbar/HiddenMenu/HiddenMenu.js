@@ -21,7 +21,6 @@ function HiddenMenu(props) {
                         <div
                             className={props.uaActive ? "button active" : "button"}
                             onClick={props.getUaLang}
-
                         >{ua}</div> |
                         <div
                             className={props.enActive ? "button active" : "button"}
@@ -36,10 +35,8 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="header"
                                     smooth={true}
-                                    // offset={50}
                                     duration={500}
                                     onClick={props.toggleMenu}
-
                                 >{home}</Link></div>
                             <div className="item">
                                 <Link
@@ -48,9 +45,7 @@ function HiddenMenu(props) {
                                     to="aboutUs"
                                     duration={500}
                                     smooth={true}
-                                    // offset={-80}
                                     onClick={props.toggleMenu}
-
                                 >{aboutUs}</Link></div>
                             <div className="item">
                                 <Link
@@ -59,9 +54,7 @@ function HiddenMenu(props) {
                                     to="grantProgram"
                                     duration={500}
                                     smooth={true}
-                                    // offset={-80}
                                     onClick={props.toggleMenu}
-
                                 >{grantProgram}</Link></div>
                             <div className="item">
                                 <Link
@@ -70,9 +63,7 @@ function HiddenMenu(props) {
                                     to="programPlan"
                                     duration={500}
                                     smooth={true}
-                                    // offset={-80}
                                     onClick={props.toggleMenu}
-
                                 >{programPlan}</Link></div>
                             <div className="item">
                                 <Link
@@ -81,9 +72,7 @@ function HiddenMenu(props) {
                                     to="signUp"
                                     duration={500}
                                     smooth={true}
-                                    // offset={-80}
                                     onClick={props.toggleMenu}
-
                                 >{signIn}</Link></div>
                             <div className="item">
                                 <Link
@@ -92,13 +81,10 @@ function HiddenMenu(props) {
                                     to="courses"
                                     duration={500}
                                     smooth={true}
-                                    // offset={-80}
                                     onClick={props.toggleMenu}
-
                                 >{courses}</Link></div>
                         </nav>
                     </nav>
-
                 </div>
             </div>
         </div >

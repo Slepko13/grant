@@ -3,7 +3,6 @@ import './BurgerButton.scss';
 
 function BurgerButton(props) {
     return (
-
         <div className="BurgerButton " onClick={props.toggleMenu}>
             <div className={props.isMenuOpen ? "active" : "passive"} >
                 <span className="bar"></span>
@@ -11,8 +10,6 @@ function BurgerButton(props) {
                 <span className="bar"></span>
             </div >
         </div >
-
-
     )
 }
 

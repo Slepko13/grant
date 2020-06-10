@@ -1,6 +1,7 @@
 $textColor: #3d1659;
 $bgColor: #f8fbff;
 .GrantProgram {
+    padding-top: 20px;
     .container {
         .wrapper {
             display: flex;
@@ -11,7 +12,10 @@ $bgColor: #f8fbff;
                 text-align: center;
                 margin: 50px 0 100px 0;
                 font-family: "Futura PT Bold";
-                font-size: 48px;
+                font-size: 36px;
+                @media screen and (min-width: 767px) {
+                    font-size: 48px;
+                }
             }
             .contentRight {
                 display: flex;
@@ -19,7 +23,6 @@ $bgColor: #f8fbff;
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 20px;
-
                 .text {
                     font-size: 22px;
                     color: #3d1659;
@@ -31,7 +34,6 @@ $bgColor: #f8fbff;
                 background-size: 100% 100%;
                 margin-bottom: 20px;
                 min-height: 200px;
-
                 @media screen and (min-width: 768px) {
                     min-height: 400px;
                 }
@@ -39,10 +41,11 @@ $bgColor: #f8fbff;
             .titleBottom {
                 text-align: center;
                 font-family: "Futura PT Bold";
-                font-size: 36px;
+                font-size: 24px;
                 @media screen and (min-width: 768px) {
-                    margin-top: 180px;
-                    margin-bottom: 100px;
+                    margin-top: 80px;
+                    margin-bottom: 50px;
+                    font-size: 36px;
                 }
             }
             .contentRightPartisipation {
@@ -69,7 +72,6 @@ $bgColor: #f8fbff;
                     @media screen and (min-width: 768px) {
                         margin-top: 100px;
                     }
-
                     &:hover {
                         background-color: #3d1659;
                     }

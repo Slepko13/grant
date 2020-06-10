@@ -10,7 +10,6 @@
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     display: flex;
     justify-content: flex-end;
-
     @media screen and(min-width: 980px) {
         display: none;
     }
@@ -20,8 +19,7 @@
         background-color: rgb(61, 22, 89);
         padding-top: 100px;
         padding-left: 20px;
-        color: #ffffff;
-
+        color: #f8fbff;
         .logo {
             margin-bottom: 40px;
         }
@@ -45,11 +43,11 @@
                     border-bottom: 2px solid red;
                 }
                 .itemLink {
-                    color: #ffffff;
+                    color: #f8fbff;
                     text-decoration: none;
                     border-bottom: 2px solid transparent;
                     &:hover {
-                        border-bottom: 2px solid #ffffff;
+                        border-bottom: 2px solid #f8fbff;
                         cursor: pointer;
                     }
                 }
@@ -57,11 +55,3 @@
         }
     }
 }
-// .passive {
-//     transform: translateX(-100%);
-//     transition:translateX 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
-// }
-// .active {
-//     transform: translateX(0);
-//     transition: translateX 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
-// }

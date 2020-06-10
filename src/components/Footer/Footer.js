@@ -14,17 +14,14 @@ function Footer(props) {
             <div className="container">
                 <div className=" wrapper  row">
                     <div className=" footerLogo col-12 col-md-6 ">
-
                         <img src={footerLogo2} alt="logo" />
                     </div>
-
                     <div className="socials col-12 col-md-6 ">
                         <div className="socialItem">
                             <a className="socialLink" href="https://m.facebook.com/itclusteracademy/" target="blank">
                                 <FontAwesomeIcon
                                     className="socialIcon"
                                     icon={faFacebookF}
-
                                 />
                             </a>
                         </div>
@@ -33,7 +30,6 @@ function Footer(props) {
                                 <FontAwesomeIcon
                                     className="socialIcon"
                                     icon={faInstagram}
-
                                 />
                             </a>
                         </div>
@@ -42,12 +38,10 @@ function Footer(props) {
                                 <FontAwesomeIcon
                                     className="socialIcon"
                                     icon={faLinkedinIn}
-
                                 />
                             </a>
                         </div>
                     </div>
-
                 </div>
                 <div className="row ">
                     <div className="infoOnline col-12 col-md-6 ">

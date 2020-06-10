@@ -23,7 +23,6 @@ function SignUp(props) {
                                 <div><a className="circle" href="https://m.facebook.com/itclusteracademy/"><FontAwesomeIcon
                                     className="icon-edit"
                                     icon={faFacebookF}
-
                                 /></a></div>
                                 <div className="mt-4"><a className="circle" href="https://www.instagram.com/itcluster_academy/?igshid=pcmue6cyzyu2"><FontAwesomeIcon
                                     className="icon-edit"
@@ -68,9 +67,7 @@ function SignUp(props) {
                                             {errors.firstName && touched.firstName ? <div className="error__message">
                                                 <ErrorMessage name="firstName" />
                                             </div> : null}
-
                                         </div>
-
                                         <div className="inputWrapper">
                                             <Field
                                                 className="form__lastName"
@@ -81,7 +78,6 @@ function SignUp(props) {
                                             {errors.lastName && touched.lastName ? <div className="error__message">
                                                 <ErrorMessage name="lastName" />
                                             </div> : null}
-
                                         </div>
                                         <div className="inputWrapper">
                                             <Field
@@ -93,7 +89,6 @@ function SignUp(props) {
                                             {errors.email && touched.email ? <div className="error__message">
                                                 <ErrorMessage name="email" />
                                             </div> : null}
-
                                         </div>
                                         <div className="inputWrapper">
                                             <Field
@@ -105,32 +100,26 @@ function SignUp(props) {
                                             {errors.phone && touched.phone ? <div className="error__message">
                                                 <ErrorMessage name="phone" />
                                             </div> : null}
-
-
                                         </div>
                                         <div className="inputWrapper">
                                             <Field
                                                 className="form__location"
                                                 style={errors.location && touched.location ? { border: "1px solid red" } : null}
-
                                                 name="location"
                                                 placeholder={location}
                                             >
                                             </Field>
-
                                             {errors.location && touched.location ? <div className="error__message">
                                                 <ErrorMessage name="location" />
                                             </div> : null}
-
                                         </div>
                                         <div className="air-icon">
-
                                             <input
                                                 className="form__button"
                                                 type="submit"
                                                 value={button}
                                             />
-
+x
                                             <div className="centered-icon">
                                                 <div><a href="https://m.facebook.com/itclusteracademy/" target="_blank">
                                                     <FontAwesomeIcon
@@ -160,7 +149,6 @@ function SignUp(props) {
                 </div>
             </div>
             <svg className="for-waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 210 1440 110"><path fill="#4512AB" fill-opacity="1" d="M0,224L80,240C160,256,320,288,480,277.3C640,267,800,213,960,213.3C1120,213,1280,267,1360,293.3L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-
         </section >
     )
 }

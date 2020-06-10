@@ -9,7 +9,6 @@ $bgColor: #f8fbff;
         .footerLogo {
             color: #3d1659;
             margin-top: 20px;
-
             img {
                 color: #3d1659;
             }
@@ -19,7 +18,6 @@ $bgColor: #f8fbff;
             justify-content: flex-end;
             height: 100%;
             margin-top: 20px;
-
             .socialItem {
                 width: 50px;
                 height: 50px;
@@ -30,7 +28,6 @@ $bgColor: #f8fbff;
                 align-items: center;
                 margin-right: 20px;
                 transition: background-color 0.5s;
-
                 &:hover {
                     background-color: #f8fbff;
                     border: 1px solid #3d1659;
@@ -43,7 +40,6 @@ $bgColor: #f8fbff;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     .socialIcon {
                         width: 25px;
                         height: 25px;
