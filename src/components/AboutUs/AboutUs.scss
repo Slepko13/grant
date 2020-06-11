@@ -12,7 +12,7 @@ $bgColor: #f8fbff;
             .title {
                 text-align: center;
                 margin-top: 20px;
-                font-family: "Futura PT Bold";
+                font-family: "Futura PT Bold", sans-serif;
                 font-size: 48px;
                 @media screen and (max-width: 768px) {
                     font-size: 36px;

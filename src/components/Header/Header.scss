@@ -45,7 +45,7 @@ $bgColor: #f8fbff;
                 }
                 .title {
                     text-transform: capitalize;
-                    font-family: "Futura PT Bold";
+                    font-family: "Futura PT Bold", sans-serif;
                     font-size: 36px;
                     @media screen and (min-width: 767px) {
                         font-size: 48px;
@@ -79,7 +79,7 @@ $bgColor: #f8fbff;
                     .registrationLink {
                         color: #3d1659;
                         text-decoration: none;
-                        font-family: "Futura PT Bold";
+                        font-family: "Futura PT Bold", sans-serif;
                         text-transform: uppercase;
                         outline: none;
                         cursor: pointer;
@@ -94,7 +94,7 @@ $bgColor: #f8fbff;
         .partnersTitle {
             text-align: center;
             margin-bottom: 20px;
-            font-family: "Futura PT Bold";
+            font-family: "Futura PT Bold", sans-serif;
             font-size: 24px;
             @media screen and (min-width: 767px) {
                 font-size: 36px;

@@ -11,7 +11,7 @@ $bgColor: #f8fbff;
             .titleTop {
                 text-align: center;
                 margin: 50px 0 100px 0;
-                font-family: "Futura PT Bold";
+                font-family: "Futura PT Bold", sans-serif;
                 font-size: 36px;
                 @media screen and (min-width: 767px) {
                     font-size: 48px;
@@ -40,7 +40,7 @@ $bgColor: #f8fbff;
             }
             .titleBottom {
                 text-align: center;
-                font-family: "Futura PT Bold";
+                font-family: "Futura PT Bold", sans-serif;
                 font-size: 24px;
                 @media screen and (min-width: 768px) {
                     margin-top: 80px;
@@ -82,7 +82,7 @@ $bgColor: #f8fbff;
                     .registrationLink {
                         color: #3d1659;
                         text-decoration: none;
-                        font-family: "Futura PT Bold";
+                        font-family: "Futura PT Bold", sans-serif;
                         text-transform: uppercase;
                         outline: none;
                         cursor: pointer;

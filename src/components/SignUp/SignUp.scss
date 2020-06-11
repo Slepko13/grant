@@ -56,7 +56,7 @@
                     margin-bottom: 30px;
                     text-align: center;
                     margin-top: 100px;
-                    font-family: "Futura PT Bold";
+                    font-family: "Futura PT Bold", sans-serif;
                     color: #f8fbff;
                     font-size: 36px;
                     @media screen and (max-width: 767px) {
@@ -90,7 +90,7 @@
                         width: 300px;
                         background-color: transparent;
                         border-radius: 4px;
-                        font-family: "Futura PT";
+                        font-family: "Futura PT", sans-serif;
                         .inputWrapper {
                             position: relative;
                             width: 100%;
@@ -144,7 +144,7 @@
                             background-color: transparent;
                             border: 1px solid #ffffff;
                             height: 40px;
-                            font-family: "Futura PT Bold";
+                            font-family: "Futura PT Bold", sans-serif;
                             text-transform: uppercase;
                             outline: none;
                             border-radius: 10px;
