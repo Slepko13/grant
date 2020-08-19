@@ -40,7 +40,8 @@
                 }
                 .teacherImage {
                     height: 300px;
-                    border-radius: 50%;
+                    width: 100%;
+                    // border-radius: 50%;
                     object-fit: contain;
                 }
             }

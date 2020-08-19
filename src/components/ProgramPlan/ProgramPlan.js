@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProgramPlan.scss';
-import softServe from "../../assets/images/teachers/Lubomir.jpg";
-import eleks from "../../assets/images/teachers/Natalya.jpg";
+import softServe from "../../assets/images/logo/softserve.png";
+import eleks from "../../assets/images/logo/Eleks.png";
 import enLang from '../../assets/language/en.json';
 import uaLang from '../../assets/language/ua.json';
 import topic1 from '../../assets/images/program-plan/1.png';
