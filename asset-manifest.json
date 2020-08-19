@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/grant/static/css/main.bc03985d.chunk.css",
-    "main.js": "/grant/static/js/main.446b45fe.chunk.js",
-    "main.js.map": "/grant/static/js/main.446b45fe.chunk.js.map",
+    "main.css": "/grant/static/css/main.ac7f4bca.chunk.css",
+    "main.js": "/grant/static/js/main.3a504750.chunk.js",
+    "main.js.map": "/grant/static/js/main.3a504750.chunk.js.map",
     "runtime-main.js": "/grant/static/js/runtime-main.631a4d71.js",
     "runtime-main.js.map": "/grant/static/js/runtime-main.631a4d71.js.map",
     "static/css/2.ac3c9bf6.chunk.css": "/grant/static/css/2.ac3c9bf6.chunk.css",
-    "static/js/2.c1a4c0ea.chunk.js": "/grant/static/js/2.c1a4c0ea.chunk.js",
-    "static/js/2.c1a4c0ea.chunk.js.map": "/grant/static/js/2.c1a4c0ea.chunk.js.map",
+    "static/js/2.949a6fb3.chunk.js": "/grant/static/js/2.949a6fb3.chunk.js",
+    "static/js/2.949a6fb3.chunk.js.map": "/grant/static/js/2.949a6fb3.chunk.js.map",
     "index.html": "/grant/index.html",
-    "precache-manifest.d9a6991b20079878f91f4da9311c0fe7.js": "/grant/precache-manifest.d9a6991b20079878f91f4da9311c0fe7.js",
+    "precache-manifest.a4ce81704676dcf3319699b66f0d9f1d.js": "/grant/precache-manifest.a4ce81704676dcf3319699b66f0d9f1d.js",
     "service-worker.js": "/grant/service-worker.js",
     "static/css/2.ac3c9bf6.chunk.css.map": "/grant/static/css/2.ac3c9bf6.chunk.css.map",
-    "static/css/main.bc03985d.chunk.css.map": "/grant/static/css/main.bc03985d.chunk.css.map",
-    "static/js/2.c1a4c0ea.chunk.js.LICENSE.txt": "/grant/static/js/2.c1a4c0ea.chunk.js.LICENSE.txt",
+    "static/css/main.ac7f4bca.chunk.css.map": "/grant/static/css/main.ac7f4bca.chunk.css.map",
+    "static/js/2.949a6fb3.chunk.js.LICENSE.txt": "/grant/static/js/2.949a6fb3.chunk.js.LICENSE.txt",
     "static/media/1.png": "/grant/static/media/1.32048701.png",
     "static/media/10.png": "/grant/static/media/10.b25b3cf9.png",
     "static/media/2.png": "/grant/static/media/2.a0650dbf.png",
@@ -30,7 +30,6 @@
     "static/media/Eleks.png": "/grant/static/media/Eleks.2ba37914.png",
     "static/media/Header.scss": "/grant/static/media/Treee_Man_Hero.6c4f706d.svg",
     "static/media/ITRally.png": "/grant/static/media/ITRally.d9e11e6d.png",
-    "static/media/Natalya.jpg": "/grant/static/media/Natalya.c823d8f0.jpg",
     "static/media/Netfully.jpg": "/grant/static/media/Netfully.62723ac4.jpg",
     "static/media/Project management 1.svg": "/grant/static/media/Project management 1.615163c4.svg",
     "static/media/Ukietech.png": "/grant/static/media/Ukietech.869c135e.png",
@@ -58,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.631a4d71.js",
     "static/css/2.ac3c9bf6.chunk.css",
-    "static/js/2.c1a4c0ea.chunk.js",
-    "static/css/main.bc03985d.chunk.css",
-    "static/js/main.446b45fe.chunk.js"
+    "static/js/2.949a6fb3.chunk.js",
+    "static/css/main.ac7f4bca.chunk.css",
+    "static/js/main.3a504750.chunk.js"
   ]
 }
